@@ -47,12 +47,12 @@ console.log('Hello');
 
 ## Development
 
-This extension is actively developed in the [`alto/commonmark`](https://github.com/PhpAlto/commonmark) monorepo.
+This extension is actively developed in the [`alto/commonmark`](https://github.com/altophp/commonmark) monorepo.
 
-- [Report a bug](https://github.com/PhpAlto/commonmark/issues/new?labels=bug)
-- [Suggest a feature](https://github.com/PhpAlto/commonmark/issues/new?labels=enhancement)
-- [Open a Pull Request](https://github.com/PhpAlto/commonmark/pulls)
+- [Report a bug](https://github.com/altophp/commonmark/issues/new?labels=bug)
+- [Suggest a feature](https://github.com/altophp/commonmark/issues/new?labels=enhancement)
+- [Open a Pull Request](https://github.com/altophp/commonmark/pulls)
 
 ## License
 
-MIT License -- [Simon André](https://smnandre.dev) & [Alto](https://github.com/PhpAlto)
+MIT License -- [Simon André](https://smnandre.dev) & [Alto](https://github.com/altophp)

@@ -12,15 +12,15 @@ composer require alto/commonmark
 
 | Extension | Description | GitHub | Packagist |
 |-----------|-------------|--------|-----------|
-| CodeBlockTitle | Titled fenced code blocks rendered as `<figure>` | [GitHub](https://github.com/PhpAlto/commonmark-code-block-title) | [Packagist](https://packagist.org/packages/alto/commonmark-code-block-title) |
-| ContentSlicer | Wraps heading sections in semantic `<section>` elements | [GitHub](https://github.com/PhpAlto/commonmark-content-slicer) | [Packagist](https://packagist.org/packages/alto/commonmark-content-slicer) |
-| HeadingLevel | Shift or remap heading levels across the document | [GitHub](https://github.com/PhpAlto/commonmark-heading-level) | [Packagist](https://packagist.org/packages/alto/commonmark-heading-level) |
-| Import | Import file contents into code blocks with line ranges | [GitHub](https://github.com/PhpAlto/commonmark-import) | [Packagist](https://packagist.org/packages/alto/commonmark-import) |
-| Include | Inline-include Markdown fragments for doc composition | [GitHub](https://github.com/PhpAlto/commonmark-include) | [Packagist](https://packagist.org/packages/alto/commonmark-include) |
-| LinkRewriter | Rewrite links & images via base URI, map, or regex | [GitHub](https://github.com/PhpAlto/commonmark-link-rewriter) | [Packagist](https://packagist.org/packages/alto/commonmark-link-rewriter) |
-| Source | Embed source files with line numbers and highlighting | [GitHub](https://github.com/PhpAlto/commonmark-source) | [Packagist](https://packagist.org/packages/alto/commonmark-source) |
-| TableOfContents | Auto-generated TOC from headings via `@toc` | [GitHub](https://github.com/PhpAlto/commonmark-table-of-contents) | [Packagist](https://packagist.org/packages/alto/commonmark-table-of-contents) |
-| Tabs | Accessible ARIA tabbed UI from a simple `@tabs` directive | [GitHub](https://github.com/PhpAlto/commonmark-tabs) | [Packagist](https://packagist.org/packages/alto/commonmark-tabs) |
+| CodeBlockTitle | Titled fenced code blocks rendered as `<figure>` | [GitHub](https://github.com/altophp/commonmark-code-block-title) | [Packagist](https://packagist.org/packages/alto/commonmark-code-block-title) |
+| ContentSlicer | Wraps heading sections in semantic `<section>` elements | [GitHub](https://github.com/altophp/commonmark-content-slicer) | [Packagist](https://packagist.org/packages/alto/commonmark-content-slicer) |
+| HeadingLevel | Shift or remap heading levels across the document | [GitHub](https://github.com/altophp/commonmark-heading-level) | [Packagist](https://packagist.org/packages/alto/commonmark-heading-level) |
+| Import | Import file contents into code blocks with line ranges | [GitHub](https://github.com/altophp/commonmark-import) | [Packagist](https://packagist.org/packages/alto/commonmark-import) |
+| Include | Inline-include Markdown fragments for doc composition | [GitHub](https://github.com/altophp/commonmark-include) | [Packagist](https://packagist.org/packages/alto/commonmark-include) |
+| LinkRewriter | Rewrite links & images via base URI, map, or regex | [GitHub](https://github.com/altophp/commonmark-link-rewriter) | [Packagist](https://packagist.org/packages/alto/commonmark-link-rewriter) |
+| Source | Embed source files with line numbers and highlighting | [GitHub](https://github.com/altophp/commonmark-source) | [Packagist](https://packagist.org/packages/alto/commonmark-source) |
+| TableOfContents | Auto-generated TOC from headings via `@toc` | [GitHub](https://github.com/altophp/commonmark-table-of-contents) | [Packagist](https://packagist.org/packages/alto/commonmark-table-of-contents) |
+| Tabs | Accessible ARIA tabbed UI from a simple `@tabs` directive | [GitHub](https://github.com/altophp/commonmark-tabs) | [Packagist](https://packagist.org/packages/alto/commonmark-tabs) |
 
 ## Extensions
 

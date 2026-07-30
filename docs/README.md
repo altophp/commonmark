@@ -60,4 +60,4 @@ $environment->addExtension(new TabsExtension());
 
 ---
 
-[Main README](../README.md) · [league/commonmark](https://commonmark.thephpleague.com/) · [GitHub](https://github.com/PhpAlto/commonmark)
+[Main README](../README.md) · [league/commonmark](https://commonmark.thephpleague.com/) · [GitHub](https://github.com/altophp/commonmark)

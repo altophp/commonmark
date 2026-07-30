@@ -27,10 +27,10 @@
             "email": "smn.andre@gmail.com"
         }
     ],
-    "homepage": "https://github.com/PhpAlto/commonmark",
+    "homepage": "https://github.com/altophp/commonmark",
     "support": {
-        "issues": "https://github.com/PhpAlto/commonmark/issues",
-        "docs": "https://github.com/PhpAlto/commonmark#readme"
+        "issues": "https://github.com/altophp/commonmark/issues",
+        "docs": "https://github.com/altophp/commonmark#readme"
     },
     "funding": [
         {

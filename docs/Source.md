@@ -150,5 +150,5 @@ All paths are resolved with `realpath()` and validated against `basePath`:
 ---
 
 > **This package is part of
-the [alto/commonmark](https://github.com/PhpAlto/commonmark) monorepo.**  
-> This repository is a read-only split. To file issues, open pull requests, or contribute, use the main repository: **https://github.com/PhpAlto/commonmark**
+the [alto/commonmark](https://github.com/altophp/commonmark) monorepo.**  
+> This repository is a read-only split. To file issues, open pull requests, or contribute, use the main repository: **https://github.com/altophp/commonmark**
