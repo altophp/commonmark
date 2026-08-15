@@ -17,8 +17,10 @@ composer require alto/commonmark
 ```php
 use Alto\CommonMark\Extension\LinkRewriter\LinkRewriterExtension;
 use League\CommonMark\Environment\Environment;
+use League\CommonMark\Extension\CommonMark\CommonMarkCoreExtension;
 
 $environment = new Environment();
+$environment->addExtension(new CommonMarkCoreExtension());
 $environment->addExtension(new LinkRewriterExtension([
     'base_uri' => 'https://docs.example.com',
 ]));

@@ -23,7 +23,7 @@
     "homepage": "https://github.com/altophp/commonmark",
     "support": {
         "issues": "https://github.com/altophp/commonmark/issues",
-        "docs": "https://github.com/altophp/commonmark/blob/main/docs/Tabs.md"
+        "docs": "https://altophp.com/commonmark/docs/extensions/tabs"
     },
     "funding": [
         {

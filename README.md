@@ -10,6 +10,14 @@ composer require alto/commonmark
 
 `alto/commonmark` declares `replace` on all standalone packages, so dependency resolution stays compatible whether you install one or all.
 
+## Documentation
+
+Read the complete guide at [altophp.com/commonmark](https://altophp.com/commonmark).
+It covers installation, extension selection, configuration, examples, and the
+security boundaries of file-reading extensions.
+
+## Packages
+
 | Extension | Description | GitHub | Packagist |
 |-----------|-------------|--------|-----------|
 | CodeBlockTitle | Titled fenced code blocks rendered as `<figure>` | [GitHub](https://github.com/altophp/commonmark-code-block-title) | [Packagist](https://packagist.org/packages/alto/commonmark-code-block-title) |
@@ -41,7 +49,7 @@ echo "Hello";
 </figure>
 ```
 
-[Doc](src/Extension/CodeBlockTitle/README.md) · [GitHub](https://github.com/alto/commonmark/tree/main/src/Extension/CodeBlockTitle) · [Packagist](https://packagist.org/packages/alto/commonmark-code-block-title)
+[Documentation](https://altophp.com/commonmark/docs/extensions/code-block-title) · [GitHub](https://github.com/alto/commonmark/tree/main/src/Extension/CodeBlockTitle) · [Packagist](https://packagist.org/packages/alto/commonmark-code-block-title)
 
 ---
 
@@ -60,7 +68,7 @@ Final content.
 <section><h2>Subtopic 2</h2><p>Final content.</p></section>
 ```
 
-[Doc](src/Extension/ContentSlicer/README.md) · [GitHub](https://github.com/alto/commonmark/tree/main/src/Extension/ContentSlicer) · [Packagist](https://packagist.org/packages/alto/commonmark-content-slicer)
+[Documentation](https://altophp.com/commonmark/docs/extensions/content-slicer) · [GitHub](https://github.com/alto/commonmark/tree/main/src/Extension/ContentSlicer) · [Packagist](https://packagist.org/packages/alto/commonmark-content-slicer)
 
 ---
 
@@ -78,7 +86,7 @@ The one you don't need until you really do — then it's irreplaceable. Shifts, 
 <h3>Section</h3>
 ```
 
-[Doc](src/Extension/HeadingLevel/README.md) · [GitHub](https://github.com/alto/commonmark/tree/main/src/Extension/HeadingLevel) · [Packagist](https://packagist.org/packages/alto/commonmark-heading-level)
+[Documentation](https://altophp.com/commonmark/docs/extensions/heading-level) · [GitHub](https://github.com/alto/commonmark/tree/main/src/Extension/HeadingLevel) · [Packagist](https://packagist.org/packages/alto/commonmark-heading-level)
 
 ---
 
@@ -94,7 +102,7 @@ Solves copy-paste drift between your docs and your source code. Pulls external f
 </code></pre>
 ```
 
-[Doc](src/Extension/Import/README.md) · [GitHub](https://github.com/alto/commonmark/tree/main/src/Extension/Import) · [Packagist](https://packagist.org/packages/alto/commonmark-import)
+[Documentation](https://altophp.com/commonmark/docs/extensions/import) · [GitHub](https://github.com/alto/commonmark/tree/main/src/Extension/Import) · [Packagist](https://packagist.org/packages/alto/commonmark-import)
 
 ---
 
@@ -110,7 +118,7 @@ The backbone of large documentation sets. Pulls in and fully parses markdown fra
 <p>This is the introduction section.</p>
 ```
 
-[Doc](src/Extension/Include/README.md) · [GitHub](https://github.com/alto/commonmark/tree/main/src/Extension/Include) · [Packagist](https://packagist.org/packages/alto/commonmark-include)
+[Documentation](https://altophp.com/commonmark/docs/extensions/include) · [GitHub](https://github.com/alto/commonmark/tree/main/src/Extension/Include) · [Packagist](https://packagist.org/packages/alto/commonmark-include)
 
 ---
 
@@ -128,7 +136,7 @@ Indispensable plumbing for any hosted documentation setup. Decouples your markdo
 <img src="https://docs.example.com/assets/logo.svg" alt="Logo">
 ```
 
-[Doc](src/Extension/LinkRewriter/README.md) · [GitHub](https://github.com/alto/commonmark/tree/main/src/Extension/LinkRewriter) · [Packagist](https://packagist.org/packages/alto/commonmark-link-rewriter)
+[Documentation](https://altophp.com/commonmark/docs/extensions/link-rewriter) · [GitHub](https://github.com/alto/commonmark/tree/main/src/Extension/LinkRewriter) · [Packagist](https://packagist.org/packages/alto/commonmark-link-rewriter)
 
 ---
 
@@ -148,7 +156,7 @@ The flagship of the set. Embeds a real file — not a copy — directly into you
 </div>
 ```
 
-[Doc](src/Extension/Source/README.md) · [GitHub](https://github.com/alto/commonmark/tree/main/src/Extension/Source) · [Packagist](https://packagist.org/packages/alto/commonmark-source)
+[Documentation](https://altophp.com/commonmark/docs/extensions/source) · [GitHub](https://github.com/alto/commonmark/tree/main/src/Extension/Source) · [Packagist](https://packagist.org/packages/alto/commonmark-source)
 
 ---
 
@@ -170,7 +178,7 @@ A must-have for any document longer than a page. Drop `@toc` where you want the 
 </div>
 ```
 
-[Doc](src/Extension/TableOfContents/README.md) · [GitHub](https://github.com/alto/commonmark/tree/main/src/Extension/TableOfContents) · [Packagist](https://packagist.org/packages/alto/commonmark-table-of-contents)
+[Documentation](https://altophp.com/commonmark/docs/extensions/table-of-contents) · [GitHub](https://github.com/alto/commonmark/tree/main/src/Extension/TableOfContents) · [Packagist](https://packagist.org/packages/alto/commonmark-table-of-contents)
 
 ---
 
@@ -203,7 +211,7 @@ console.log('Hello');
 </div>
 ```
 
-[Doc](src/Extension/Tabs/README.md) · [GitHub](https://github.com/alto/commonmark/tree/main/src/Extension/Tabs) · [Packagist](https://packagist.org/packages/alto/commonmark-tabs)
+[Documentation](https://altophp.com/commonmark/docs/extensions/tabs) · [GitHub](https://github.com/alto/commonmark/tree/main/src/Extension/Tabs) · [Packagist](https://packagist.org/packages/alto/commonmark-tabs)
 
 ## Support
 
