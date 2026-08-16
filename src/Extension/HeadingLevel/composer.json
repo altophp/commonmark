@@ -22,7 +22,7 @@
     "homepage": "https://github.com/altophp/commonmark",
     "support": {
         "issues": "https://github.com/altophp/commonmark/issues",
-        "docs": "https://github.com/altophp/commonmark/blob/main/docs/HeadingLevel.md"
+        "docs": "https://altophp.com/commonmark/docs/extensions/heading-level"
     },
     "funding": [
         {
