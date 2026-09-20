@@ -18,7 +18,7 @@ $converter = new MarkdownConverter($environment);
 $html = $converter->convert("```php title=\"example.php\"\necho 'Hello';\n```");
 ```
 
-## Introduction
+## Documentation
 
 - [Installation](installation.md): install the complete collection or one extension.
 - [Getting started](getting-started.md): register extensions and render Markdown.
