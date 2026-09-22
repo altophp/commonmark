@@ -19,6 +19,9 @@ use League\CommonMark\Renderer\ChildNodeRendererInterface;
 use League\CommonMark\Renderer\NodeRendererInterface;
 use League\CommonMark\Util\HtmlElement;
 
+/**
+ * @author Simon André <smn.andre@gmail.com>
+ */
 final class SectionNode extends AbstractBlock implements NodeRendererInterface
 {
     public function render(Node $node, ChildNodeRendererInterface $childRenderer): \Stringable

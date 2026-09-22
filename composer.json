@@ -27,9 +27,10 @@
             "email": "smn.andre@gmail.com"
         }
     ],
-    "homepage": "https://github.com/altophp/commonmark",
+    "homepage": "https://altophp.com/commonmark",
     "support": {
         "issues": "https://github.com/altophp/commonmark/issues",
+        "source": "https://github.com/altophp/commonmark",
         "docs": "https://altophp.com/commonmark"
     },
     "funding": [
@@ -42,6 +43,11 @@
         "php": "^8.3",
         "league/commonmark": "^2.7"
     },
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "^3.92",
+        "phpstan/phpstan": "^2.1",
+        "phpunit/phpunit": "^12.5"
+    },
     "replace": {
         "alto/commonmark-code-block-title": "self.version",
         "alto/commonmark-content-slicer": "self.version",
@@ -53,11 +59,6 @@
         "alto/commonmark-table-of-contents": "self.version",
         "alto/commonmark-tabs": "self.version"
     },
-    "require-dev": {
-        "friendsofphp/php-cs-fixer": "^3.92",
-        "phpstan/phpstan": "^2.1",
-        "phpunit/phpunit": "^12.5"
-    },
     "autoload": {
         "psr-4": {
             "Alto\\CommonMark\\": "src/"
@@ -68,14 +69,18 @@
             "Alto\\CommonMark\\Tests\\": "tests/"
         }
     },
+    "config": {
+        "sort-packages": true
+    },
     "scripts": {
-        "cs": "vendor/bin/php-cs-fixer fix",
+        "cs": "vendor/bin/php-cs-fixer fix --dry-run --diff --sequential",
+        "cs:fix": "vendor/bin/php-cs-fixer fix --sequential",
         "qa": [
             "@cs",
             "@sa",
             "@test"
         ],
-        "sa": "vendor/bin/phpstan analyse",
+        "sa": "vendor/bin/phpstan analyse --memory-limit=-1",
         "test": "vendor/bin/phpunit"
     }
 }

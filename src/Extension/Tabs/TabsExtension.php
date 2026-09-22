@@ -27,6 +27,9 @@ use League\CommonMark\Parser\MarkdownParserStateInterface;
 use League\CommonMark\Renderer\ChildNodeRendererInterface;
 use League\CommonMark\Renderer\NodeRendererInterface;
 
+/**
+ * @author Simon André <smn.andre@gmail.com>
+ */
 final readonly class TabsExtension implements ExtensionInterface
 {
     /**

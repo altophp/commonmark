@@ -24,6 +24,8 @@ use League\CommonMark\Extension\ExtensionInterface;
  *     down?: int,
  *     callback?: callable(int): ?int
  * }
+ *
+ * @author Simon André <smn.andre@gmail.com>
  */
 final readonly class HeadingLevelExtension implements ExtensionInterface
 {

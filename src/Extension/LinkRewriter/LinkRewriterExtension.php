@@ -18,6 +18,9 @@ use League\CommonMark\Event\DocumentParsedEvent;
 use League\CommonMark\Extension\ExtensionInterface;
 use League\CommonMark\Node\Node;
 
+/**
+ * @author Simon André <smn.andre@gmail.com>
+ */
 final readonly class LinkRewriterExtension implements ExtensionInterface
 {
     /** @var \Closure(string, Node): string */

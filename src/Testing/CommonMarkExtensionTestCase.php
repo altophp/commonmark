@@ -20,6 +20,9 @@ use League\CommonMark\Extension\ExtensionInterface;
 use League\CommonMark\MarkdownConverter;
 use PHPUnit\Framework\TestCase;
 
+/**
+ * @author Simon André <smn.andre@gmail.com>
+ */
 abstract class CommonMarkExtensionTestCase extends TestCase
 {
     private ?Environment $env = null;
