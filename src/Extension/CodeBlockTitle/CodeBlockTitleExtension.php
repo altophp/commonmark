@@ -19,6 +19,9 @@ use League\CommonMark\Extension\CommonMark\Renderer\Block\FencedCodeRenderer;
 use League\CommonMark\Extension\ExtensionInterface;
 use League\CommonMark\Renderer\NodeRendererInterface;
 
+/**
+ * @author Simon André <smn.andre@gmail.com>
+ */
 final readonly class CodeBlockTitleExtension implements ExtensionInterface
 {
     public function __construct(

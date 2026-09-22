@@ -18,6 +18,9 @@ use League\CommonMark\Extension\CommonMark\Node\Inline\Image;
 use League\CommonMark\Extension\CommonMark\Node\Inline\Link;
 use League\CommonMark\Node\Node;
 
+/**
+ * @author Simon André <smn.andre@gmail.com>
+ */
 final readonly class LinkRewriterProcessor
 {
     /** @var \Closure(string, Node): string */

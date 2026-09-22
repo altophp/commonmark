@@ -20,6 +20,9 @@ use League\CommonMark\Renderer\NodeRendererInterface;
 use League\CommonMark\Util\HtmlElement;
 use League\CommonMark\Util\Xml;
 
+/**
+ * @author Simon André <smn.andre@gmail.com>
+ */
 final readonly class CodeBlockTitleRenderer implements NodeRendererInterface
 {
     public function __construct(

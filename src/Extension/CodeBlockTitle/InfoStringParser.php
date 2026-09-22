@@ -13,6 +13,9 @@ declare(strict_types=1);
 
 namespace Alto\CommonMark\Extension\CodeBlockTitle;
 
+/**
+ * @author Simon André <smn.andre@gmail.com>
+ */
 final readonly class InfoStringParser
 {
     /** @return array{lang: string|null, attrs: array<string,string>} */

@@ -17,7 +17,11 @@ use League\CommonMark\Event\DocumentParsedEvent;
 use League\CommonMark\Extension\CommonMark\Node\Block\Heading;
 use League\CommonMark\Node\Query;
 
-/** @phpstan-import-type HeadingLevelConfig from HeadingLevelExtension */
+/**
+ * @phpstan-import-type HeadingLevelConfig from HeadingLevelExtension
+ *
+ * @author Simon André <smn.andre@gmail.com>
+ */
 final readonly class HeadingLevelProcessor
 {
     /**

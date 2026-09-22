@@ -16,6 +16,9 @@ namespace Alto\CommonMark\Extension\ContentSlicer;
 use League\CommonMark\Event\DocumentParsedEvent;
 use League\CommonMark\Extension\CommonMark\Node\Block\Heading;
 
+/**
+ * @author Simon André <smn.andre@gmail.com>
+ */
 final readonly class SectioningListener
 {
     public function __construct(

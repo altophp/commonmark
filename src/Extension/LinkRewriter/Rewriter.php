@@ -15,6 +15,9 @@ namespace Alto\CommonMark\Extension\LinkRewriter;
 
 use League\CommonMark\Node\Node;
 
+/**
+ * @author Simon André <smn.andre@gmail.com>
+ */
 final readonly class Rewriter
 {
     /**

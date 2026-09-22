@@ -17,6 +17,9 @@ use League\CommonMark\Environment\EnvironmentBuilderInterface;
 use League\CommonMark\Event\DocumentParsedEvent;
 use League\CommonMark\Extension\ExtensionInterface;
 
+/**
+ * @author Simon André <smn.andre@gmail.com>
+ */
 final readonly class ContentSlicerExtension implements ExtensionInterface
 {
     /**
