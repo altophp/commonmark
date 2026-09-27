@@ -1,6 +1,27 @@
-# Alto CommonMark
+<h1 align="center">
+  <a href="https://altophp.com/commonmark">
+    <img src=".github/alto-commonmark.svg" alt="ALTO CommonMark">
+  </a>
+</h1>
 
 Reusable `league/commonmark` extensions in a monorepo, installable as either the umbrella package `alto/commonmark` or as standalone per-extension packages.
+
+## Quick start
+
+```php
+use Alto\CommonMark\Extension\HeadingLevel\HeadingLevelExtension;
+use League\CommonMark\Environment\Environment;
+use League\CommonMark\Extension\CommonMark\CommonMarkCoreExtension;
+use League\CommonMark\MarkdownConverter;
+
+$environment = new Environment();
+$environment->addExtension(new CommonMarkCoreExtension());
+$environment->addExtension(new HeadingLevelExtension(['down' => 1]));
+
+echo (new MarkdownConverter($environment))->convert('# Hello');
+```
+
+This renders `<h2>Hello</h2>` so the document can sit beneath a page title.
 
 ## Installation
 
